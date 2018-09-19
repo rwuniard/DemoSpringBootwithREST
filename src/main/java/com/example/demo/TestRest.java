@@ -8,7 +8,7 @@ public class TestRest {
 
     @RequestMapping(value="hello", method= RequestMethod.GET)
     public String helloWorld() {
-        return "Hello World3";
+        return "Hello World5";
     }
 
     @RequestMapping(value="print/{myString}", method=RequestMethod.GET)
